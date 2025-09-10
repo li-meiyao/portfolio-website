@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meine Webseite</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" href="floral-pastel-initials-favicon.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+     <h1>Meiyao Li</h1>
+     <img src="Meiyao.avif" alt="Profilbild" class="profilbild"> 
+     <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+     <label for="menu-toggle" class="menu-icon">☰</label>
+     <nav class="nav-menu">
+      <a href="#ueber-mich">Über mich</a>
+      <a href="#projekte">Projekte</a>
+      <a href="#skills">Skills & Tools</a>
+      <a href="#kontakt">Kontakt</a>
+     </nav>
+  </header>
+  <section id="ueber-mich">
+    <div class="ueber-box">
+    <h2>Über mich</h2>
+    <p> Hallo und willkommen auf meiner Seite! Ich bin ganz neu im Bereich Programmierung
+      und habe diese Webseite als mein erstes IT-Projekt erstellt. Der Start in die IT-Welt 
+      ist für mich aufregend und voller Möglichkeiten und ich freue mich darauf, Schritt für 
+      Schritt dazuzulernen.<br> Wenn ich nicht gerade am Code tüftle, liebe ich es zu lesen, zu 
+      malen oder neue Orte zu entdecken. Kreativität begleitet mich nicht nur im Alltag, 
+      sondern auch in meinen digitalen Projekten.<br>Dieses Portfolio ist mein persönlicher
+      Einstieg in die Welt der Technik und hoffentlich der Anfang von vielen spannenden Ideen.
+    </p>
+  </section>
+  <section id="projekte">
+    <div class="projects-box">
+      <h2>Projekte</h2>
+      <p>Hier findest du meine ersten IT-Projekte, die mit viel Neugier, Geduld und Spaß
+        am Ausprobieren entstanden sind. Die Links führen direkt zum Code auf GitHub.
+      </p>
+      <div class="projects-grid">
+        <!-- Erste Reihe -->
+        <div class="project-card">
+          <img src="Lebenslauf-img.png" alt="Projekt 01">
+          <p>Lebenslauf in gutem Design ohne CSS</p>
+          <button><a href="https://github.com/li-meiyao/website/blob/main/Lebenslauf Meiyao.html" 
+          target="_blank">→ zum Code</a></button>
+        </div>
+        <div class="project-card">
+          <img src="Lebenslauf-img.png" alt="Projekt 02">
+          <p>Mein erstes Projekt mit Python</p>
+          <button><a href="#" target="_blank">→ zum Code</a></button>
+        </div>
+        <div class="project-card">
+          <img src="Lebenslauf-img.png" alt="Projekt 03">
+          <p>kleines Text-Adventure mit Python</p>
+          <button><a href="#" target="_blank">→ zum Code</a></button>
+        </div>
+      </div>
+    </div>  
+  </section>
+ 
+  <section id="skills">
+    <div class="skills-box">
+      <h2>Skills & Tools</h2>
+      <p>Ich stehe am Anfang meiner IT-Reise und habe bereits erste Erfahrungen mit<span>HTML</span>
+        und<span>CSS</span>gesammelt. Damit gestalte ich einfache Webseiten und lerne, wie Struktur und Design
+        im Web zusammenspielen.<br><span>Visual Studio Code</span>ist mein bevorzugter Editor. Hier schreibe 
+        ich meinen Code, teste Ideen und entdecke neue Möglichkeiten. Ich bin ständig am Dazulernen
+        und freue mich darauf, bald auch andere Programmierprachen kennenzulernen. 
+
+    </div>
+  </section>
+<section id="kontakt">
+  <div class="kontakt-box">
+    <h2>Kontakt</h2> 
+    <a href="mailto:limeiyao17@gmail.com" title="Gmail">
+      <i class="fas fa-envelope fa-3x"></i>
+    </a>
+    <a href="https://github.com/li-meiyao" target="_blank" title="GitHub">
+      <i class="fab fa-github fa-3x"></i>
+    </a>
+    <p>Du kannst mir gern eine Nachricht schicken:</p>
+    <form action="#" method="post" class="kontaktformular">
+      <label for="vorname">Vorname*</label>
+      <input type="text" id="vorname" name="vorname" required>
+
+      <label for="nachname">Nachname*</label>
+      <input type="text" id="nachname" name="nachname" required>
+
+      <label for="email">Email*</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="nachricht">Nachricht*</label>
+      <textarea id="nachricht" name="nachricht" rows="5" required></textarea>
+
+      <button type="submit">Absenden</button>
+    </form>
+  </div>
+</section>
+
+  <footer>
+    <p>© 2025 Meiyao Li – Portfolio</p>
+  </footer>
+</body>
+</html>
